@@ -29,6 +29,24 @@ npm start
 │──bmiCalculator.html
 ├──bmiCalculator.js
 ├── package.json
-├──
+├──package-lock.json
 └── README.md
+
+The `public` folder contains the CSS styles
+
+Contributions are welcome! If you want to contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
+
+## Contact Information
+
+For any questions or feedback, feel free to reach out to the project owner:
+- Name: Zufiya Idrisi
+- Email: idrisizufiya@gmail.com
+
 
