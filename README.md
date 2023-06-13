@@ -13,8 +13,7 @@ npm install
 
 ## Usage
 
-1. Start the server:
-npm start
+1. Install nodemon and start the server: nodemon bmiCalculator.js
 
 2. Open your web browser and navigate to `http://localhost:3000`.
 
