@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  background: url("https://www.purrweb.com/images/fitforce-header-bg.svg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  color: whitesmoke;
+  text-shadow: red 1px 0 10px;
+  text-align: center;
+}
+.container {
+  width: 35vw;
+  background: linear-gradient(to right, #20c997, #64b8d1);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 5px solid black;
+  border-radius: 50px;
+}
+input {
+  padding: 7px;
+  margin: 15px 0;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+input[type="text"]::placeholder {
+  color: #a17777;
+}
+button {
+  background-color: #81c6da;
+  color: #333333;
+  border-radius: 56px;
+  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover{
+  color: whitesmoke;
+  background-color: #2caa84;
+  transform: translateY(-2px);
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;  
+  color: #232927;
+}
+
+/* Making Responsive */
+@media screen and (max-width: 850px) {
+  /* Adjust font sizes and spacing for smaller screens */
+  .container{
+    height: 50vh;
+    width: 70vw;
+  }
+  form{
+    text-align: center;
+  }
+}
